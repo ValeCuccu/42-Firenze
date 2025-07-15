@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anpastac <anpastac@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vacuccu <vacuccu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:56:47 by vacuccu           #+#    #+#             */
-/*   Updated: 2025/06/26 16:07:47 by anpastac         ###   ########.fr       */
+/*   Updated: 2025/07/15 19:13:14 by vacuccu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ typedef struct s_map
 	int		exit_y;
 	int		c_count;
 	void	*mlx_ptr;
+	int		check_exit;
 }	t_map;
 
 typedef struct s_game

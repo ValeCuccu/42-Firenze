@@ -6,7 +6,7 @@
 /*   By: vacuccu <vacuccu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 17:25:13 by vacuccu           #+#    #+#             */
-/*   Updated: 2025/07/15 17:25:15 by vacuccu          ###   ########.fr       */
+/*   Updated: 2025/07/15 19:16:05 by vacuccu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 int	init_game(t_game *game)
 {
+	game->map->check_exit = 0;
 	game->mlx_ptr = mlx_init();
 	if (!game->mlx_ptr)
 		return (0);
